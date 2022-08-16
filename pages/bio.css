@@ -99,100 +99,71 @@ nav ul li a:hover{
     padding:50px 0px;
 }
 
-.cont .title{
-    width:100%;
-    text-align: center;
-    margin-bottom: 50x;
+.masthead-heading, 
+.masthead-intro,
+.content-footer,
+.starcontainer,
+.starcontainerportfolio {
+  text-align: center;
 }
 
-.cont .title h1{
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+  }
+  
+  .masthead-heading {
+    margin-top: -0.2em;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
     text-transform: uppercase;
-    font-size:35px;
-    color:#88541e;
+  }
 
-}
 
-.cont .title h1::after{
-    content:"";
-    height:5px ;
-    width: 100px;
-    background-color: #c4d156;
-    border-radius: 25px;
-    display: block;
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
     margin: auto;
-}
+  }
+
+  .about {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  }
+
+  .section img{
+    border-radius: 25px;
+  }
 
 
-.content{
-    float: left;
-    width: 50px;
-
-}
-
-.images-selection{
-    float: right;
-    width:40%;
-}
-
-.images-selection img{
-    width:100% ;
-    height: auto;
-}
-
-.content .article h3{
-    color:#a3a3a3;
-    font-size: 17px;
-}
 
 
-.content .article p{
-    margin-top: 20px;
-    font-size: 17px;
-    line-height: 1.5;
-}
-
-.content .article .button{
-    text-decoration: none;
-    padding: 8px 25px;
-    background-color: #88941e;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-}
 
 
-.content .article .button a:hover{
-    color: #fff;
-    background-color: #f28f92;
-    transition: 1s ease;
-}
 
-.container .social{
-    width: 100%;
-    clear:both;
-    text-align: center;
-    display: inline-block;
 
-}
 
-.container .social i{
-    color:#fff;
-    font-size: 22px;
-    height: 45px;
-    width:45px;
-    border-radius: 50%;
-    line-height: 45px;
-    text-align: center;
-    background-color: #f28f92;
-    margin:0px 5px;
-}
 
-.container .social i:hover{
-    color:#fff;
-    background-color: #88541e;
-    transition: 1s ease;
-    transform: rotate(360deg);
 
-}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:768px){
     .section .cont{
@@ -240,7 +211,7 @@ nav ul li a:hover{
         height:35px;
         width:35px;
         line-height: 35px;
-        
+
     }
 
 
