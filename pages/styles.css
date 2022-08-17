@@ -12,8 +12,8 @@ body{
   background-image: linear-gradient(
         -45deg, 
         rgb(164, 226, 255) 0%, 
-        rgb(190, 201, 255) 25%, 
-        rgb(206, 163, 221) 51%, 
+        rgb(93, 104, 158) 25%, 
+        rgb(132, 61, 158) 51%, 
         rgb(180, 166, 171) 100%
   );  
   animation: AnimateBG 20s ease infinite;
@@ -24,6 +24,7 @@ body{
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
+
 
 
 img {

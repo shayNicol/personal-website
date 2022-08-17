@@ -120,93 +120,97 @@ nav ul li a:hover{
   /* -------------------------
       Portfolio
      -------------------------*/
-  
-  li {
-      list-style: none;
-     }
-  
-  #container {
-    background-color: grey;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-      
-  }
-  .box {
-    float:left;
-    width:31%;
-    margin:1% 1% 93px 1%;
-  }
-  
-  .box img {
-    width: 100%;
-    display: block;
-    border-style: solid;
-    border-width:1.5px;
-  }
-  
-  button {
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-  
-  .btn {
-    background-color: #a1a1a1;
-    border-color: #a1a1a1;
-    border-style: none;
-    border-radius: 0.3em;
-    font-size: 1em;
-    text-shadow: none;
-    height: 3.3em;
-    width: 9.6em;
-    margin-left: 30%;
-    margin-top: 5%;
-  }
-  
-  .btn:hover {
-    background-color: #282828;
-  }
 
-  .social {
-    padding: 0;
-    list-style: none;
-  }
+     .wrapper {
+        width: 400px;
+        font-family: 'Roboto', sans-serif;
+        margin:0 auto;
+    }
+     
+    .skill {
+        margin-bottom: 35px;
+        position: relative;
+        overflow-x:hidden;
+    }
+     
+    .skill > p {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1a1716;
+        margin: 0;
+    }
+     
+    .skill:before {
+        width: 100%;
+        height: 10px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: #959595;
+        bottom: 0;
+    }
+     
+    .skill-bar {
+        width: 100%;
+        height: 10px;
+        background:#f4392f;
+        display: block;
+        position: relative;
+    }
+     
+    .skill-bar span {
+        position: absolute;
+        border-top: 5px solid #f4392f;
+        top: -30px;
+        padding: 0;
+        font-size: 18px;
+        padding: 3px 0;
+        font-weight: 500;
+    }
+     
+    .skill-bar {
+        position: relative;
+    }
+     
+    .skill1 .skill-count1 {
+        right: 0;
+    }
+     
+    .skill1 {
+        width: 45%;
+    }
+     
+    .skill2 {
+        width: 35%;
+    }
+     
+    .skill2 .skill-count2 {
+        right: 0;
+    }
+     
+    .skill3{
+       width: 45%;
+    }
+     
+    .skill3 .skill-count3 {
+        right: 0;
+    }
   
-  section > h1 {
-    margin-top: 2em;
-  }
-  
-  .social > li {
-    display: inline-block;
-    padding-right: 1em; 
-  }
-  
-  .content-footer > p {
-    color: white;
-  }
-  
-  .content-footer > a {
-    margin-right: 0.1em;
-  }
-  
-  .content-footer {
-    background-color: #282828;
-    max-width: 100%;
-    padding: 4em 0;
-  }
+ 
 
 
-.html {
-    width: 80%;
-}
 
-.php {
-    width: 60%;
-}
 
-.Javascript{
-    width: 30%;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 

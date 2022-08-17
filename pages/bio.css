@@ -28,7 +28,6 @@ body{
 .container{
     width: 430vh;
     height: auto;
-    background-color:#c1d7f8; 
 }
 
 nav{
@@ -123,32 +122,29 @@ nav ul li a:hover{
   }
 
 
-.section img{
-    float: left;
+
+#hero p{
+    position: relative;
+    margin-right:-10rem;
+    margin-left: 10rem;
+    border: solid;
 }
 
+div.container{
+    display: flex;
+    max-width: 100%;
+}
+
+section.location{
+    background-color: rgb(206, 163, 221);
+    width: auto;
+    border: 10px solid rgb(2, 2, 2);
+    padding: 15px;
+    margin: 15px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-device-width : 320px) 
-and (max-device-width : 480px) and (max-width: 480px)
+  }
+img{
+    border-radius: 15px;
+}
